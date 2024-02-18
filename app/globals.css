@@ -26,6 +26,22 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+.button-container{
+  display: flex;
+  justify-content: center;
+  background-color: white; /* Green */
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.heading{
+  font-size: 40px;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
